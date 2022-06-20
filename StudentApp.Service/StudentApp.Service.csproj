@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\StudentApp.DAL\StudentApp.DAL.csproj" />
+      <ProjectReference Include="..\StudentApp.Domain\StudentApp.Domain.csproj" />
+      <ProjectReference Include="..\StudentApp.Extensions\StudentApp.Extensions.csproj" />
+      <ProjectReference Include="..\StudentApp.Model\StudentApp.Model.csproj" />
+    </ItemGroup>
+
+</Project>
